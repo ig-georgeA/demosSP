@@ -1,0 +1,455 @@
+.row-layout {
+  display: flex;
+}
+.home-container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  height: 100%;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.home {
+  background-color: var(--ig-gray-100);
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: min-content;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.header {
+  background-color: var(--ig-surface-500);
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 16px;
+  height: 56px;
+  min-height: 56px;
+  max-height: 56px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.left {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+}
+.buttons {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+}
+.page-content {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.header_1 {
+  background-color: var(--ig-primary-700);
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  height: 144px;
+  min-height: 144px;
+  max-height: 144px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.title {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  width: 960px;
+  min-width: min-content;
+  max-width: 960px;
+}
+.content-and-footer {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.content {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  overflow: auto;
+  position: relative;
+  width: 960px;
+  min-width: 960px;
+  max-width: 960px;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.left_1 {
+  background-color: var(--ig-surface-500);
+  border-color: var(--ig-gray-200);
+  border-width: 1px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 32px;
+  overflow: hidden;
+  position: relative;
+  width: 350px;
+  min-width: 350px;
+  max-width: 350px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.profile {
+  background-color: var(--ig-gray-200);
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  padding: 16px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.text {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.summary {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  padding: 0 16px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.summary_1 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.open-pto {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  overflow: hidden;
+  position: relative;
+  padding: 8px;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.group {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.group_2 {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.group_3 {
+  justify-content: flex-end;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.actions {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.title_1 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 16px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.right {
+  background-color: var(--ig-surface-500);
+  border-color: var(--ig-gray-200);
+  border-width: 1px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8px;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.heading {
+  background-color: var(--ig-gray-200);
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  padding: 4px 16px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.content-group {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.title_2 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 10px;
+  position: relative;
+  padding: 10px 16px 0;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.footer {
+  background-color: var(--ig-surface-500);
+  border-color: var(--ig-gray-200);
+  border-width: 1px 0px 0px;
+  border-style: solid;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.content_2 {
+  color: var(--ig-gray-900);
+  position: relative;
+}
+.icon {
+  color: var(--ig-gray-900);
+}
+.avatar {
+  --ig-size: var(--ig-size-small);
+  position: relative;
+}
+.icon_1 {
+  --size: 36px;
+  font-size: 36px;
+  width: 36px;
+  height: 36px;
+  color: #FFFFFFFF;
+  position: relative;
+  min-width: min-content;
+}
+.home_1 {
+  color: #FFFFFFFF;
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.avatar_1 {
+  --ig-size: var(--ig-size-medium);
+  position: relative;
+}
+.content_1 {
+  color: var(--ig-gray-900);
+  position: relative;
+  align-self: stretch;
+}
+.open-pto_1 {
+  text-align: center;
+  color: var(--ig-gray-900);
+  position: relative;
+  align-self: stretch;
+}
+.icon_2 {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: var(--ig-gray-900);
+  position: relative;
+}
+.h6 {
+  text-align: center;
+  color: var(--ig-gray-900);
+  position: relative;
+}
+.icon_3 {
+  --size: 18px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+  color: var(--ig-primary-500);
+  position: relative;
+  min-width: min-content;
+}
+.icon_4 {
+  color: var(--ig-primary-500);
+}
+.icon_5 {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: var(--ig-gray-700);
+}
+.my-benefits {
+  color: #000000FF;
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.icon_6 {
+  color: var(--ig-gray-800);
+}
+.c-2020-rapid-fissi {
+  text-align: center;
+  color: var(--ig-gray-900);
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.avatar_2::part(base) {
+  background-color: transparent;
+}
+.avatar_3::part(base) {
+  background-color: transparent;
+}
+.avatar_4::part(base) {
+  background-color: transparent;
+}
+.avatar_5::part(base) {
+  background-color: transparent;
+}
+.avatar_6::part(base) {
+  background-color: transparent;
+}
+.avatar_7::part(base) {
+  background-color: transparent;
+}
+.avatar_8::part(base) {
+  color: var(--ig-gray-800);
+  background-color: var(--ig-gray-100);
+}
+.avatar_9::part(base) {
+  color: var(--ig-gray-800);
+  background-color: var(--ig-gray-100);
+}
+.avatar_10::part(base) {
+  color: var(--ig-gray-800);
+  background-color: var(--ig-gray-100);
+}
+.avatar_11::part(base) {
+  color: var(--ig-gray-800);
+  background-color: var(--ig-gray-100);
+}
+.avatar_1_1::part(base) {
+  background-color: transparent;
+}
+.button {
+  position: relative;
+}
+.button_1::part(base) {
+  color: var(--ig-gray-900);
+  background-color: #FFFFFF00;
+}
+.button_2::part(base) {
+  color: var(--ig-primary-500);
+  background-color: #FFFFFF00;
+}
+.button_3 {
+  --ig-size: var(--ig-size-medium);
+  position: relative;
+  width: 88px;
+  height: max-content;
+  min-width: min-content;
+  max-width: 88px;
+}
+.button_4 {
+  --ig-size: var(--ig-size-medium);
+  position: relative;
+  height: max-content;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.button_3_1::part(base) {
+  color: var(--ig-secondary-500);
+}
+.button_3_2::part(base) {
+  color: var(--ig-secondary-500);
+}
+.button_3_3::part(base) {
+  color: var(--ig-gray-500);
+}
+.button_3_4::part(base) {
+  color: var(--ig-gray-500);
+}
+.button_4_1::part(base) {
+  color: var(--ig-gray-900);
+  background-color: var(--ig-secondary-500);
+}
+.list {
+  position: relative;
+  align-self: stretch;
+}
